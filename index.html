@@ -1,15 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
+
 <body>
-    <h1>Home Page</h1>
-    <a href="/hunger-monster/">Hunger Monster</a>
-    <a href="/deteksi-produk/">Deteksi Produk</a>
-    <a href="/web/">Web</a>
+    <div id="app">
+        <ul>
+            <li style="padding: .25rem"
+                v-for="_item of items"
+                :key="_item">
+
+                <a :href="_item.link">{{ _item.title }}</a>
+
+                <span v-if="_item.last_update">
+                    (Last Update, {{ _item.last_update }})
+                </span>
+
+                <span v-if="_item.repos && _item.repos_name">
+                    <span> - repos, </span>
+                    <a :href="_item.repos"
+                       target="_blank">
+                        {{ _item.repos_name }}
+                    </a>
+                </span>
+
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const items = [
+            {
+                title: "Hunger Monster",
+                link: "/hunger-monster/",
+                repos: "https://github.com/nazililham11/hunger_monster-construct2",
+                file_link: "https://api.github.com/repos/nazililham11/nazililham11.github.io/commits?path=hunger-monster%2Findex.html&page=1&per_page=1",
+            },
+            {
+                title: "Deteksi Produk",
+                link: "/deteksi-produk/",
+                repos: "https://github.com/nazililham11/deteksi_produk-electron",
+                file_link: "https://api.github.com/repos/nazililham11/nazililham11.github.io/commits?path=deteksi-produk%2Findex.html&page=1&per_page=1",
+            },
+            {
+                title: "Web",
+                link: "/web/",
+                repos: "https://github.com/nazililham11/web",
+                file_link: "https://api.github.com/repos/nazililham11/nazililham11.github.io/commits?path=web%2Findex.html&page=1&per_page=1",
+            },
+        ]
+
+        Vue.createApp({
+            data() {
+                return {
+                    items: []
+                }
+            },
+            created() {
+                const reposName = (url) => ((url + '').split('/').pop())
+
+                items.forEach((_item, _index) => {
+                    this.items[_index] = {
+                        repos_name: reposName(_item.repos),
+                        ..._item
+                    }
+                    fetch(_item.file_link)
+                        .then(r => r.json())
+                        .then(r => {
+                            const date = new Date(r[0].commit.committer.date)
+                            this.items[_index].last_update = date.toDateString()
+                        })
+                })
+            }
+        }).mount("#app")
+
+    </script>
+
 </body>
+
 </html>
