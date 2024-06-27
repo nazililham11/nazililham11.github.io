@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+const default_script = './script.js'
+const store_key = 'script'
+const local_script = localStorage.getItem(store_key)
+
+function createScript(url){
+    const el = document.createElement('script')
+    const execute = () => document.body.appendChild(el)
+    if (typeof url == 'string'){
+        el.setAttribute('src', url)
+    }
+    return { el, execute }
+}
+
+if (local_script){
+    console.log('local script available.')
+    
+    const script = createScript()
+    script.el.innerHTML = `try {
+        eval(\`(function(){${local_script.replaceAll('\`', '\\\`')})})()\`)
+        const script = createScript()
+        script.el.innerHTML = local_script
+        script.execute()
+    } catch (e) {
+        console.log('error', e)
+        createScript(default_script).execute()
+    }`
+    script.execute()
+
+} else if (typeof local_script != 'string') {
+    console.log('local script not available.. loading default script')
+
+    const script = createScript(default_script)
+    script.el.onload = () => {
+        fetch(default_script)
+            .then(r => r.text())
+            .then(script => {
+                localStorage.setItem(store_key, script)
+            })
+    }
+    script.execute()
+}
+
+
+</script>
+</body>
+</html>
