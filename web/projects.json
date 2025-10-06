@@ -1,0 +1,763 @@
+{
+    "categories": {
+        "Elektronics": 13,
+        "Database": 6,
+        "Desktop App": 1,
+        "Web App": 10,
+        "Mobile App": 3,
+        "Game Dev": 1,
+        "AI": 1
+    },
+    "tags": {
+        "Arduino": 12,
+        "C++": 12,
+        "MySQL": 4,
+        "C#": 1,
+        "WPF": 1,
+        ".Net": 1,
+        "ESP8266": 3,
+        "JavaScript": 9,
+        "PHP": 3,
+        "Laravel": 2,
+        "Vue": 7,
+        "Java": 1,
+        "SQLite": 2,
+        "Kotlin": 2,
+        "WebSocket": 2,
+        "Construct2": 1,
+        "Tensorflow": 1,
+        "Python": 1,
+        "SSD MobileNetV2": 1,
+        "Tailwind": 3,
+        "Typescript": 1
+    },
+    "projects": {
+        "door_lock": {
+            "name": "door_lock",
+            "title": "Pengunci Pintu Berbasis Pin",
+            "desc": "Miniatur yang dibuat untuk keperluan pameran karya Sidoarjo 2016.",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2016,
+            "made_at": "SMKN 1 Sidoarjo"
+        },
+        "dmd": {
+            "name": "dmd",
+            "title": "Display Dot Matrix",
+            "desc": "Display dot matriks yang berbasis arduino",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2016,
+            "made_at": "JNN Malang"
+        },
+        "line_follower": {
+            "name": "line_follower",
+            "title": "Robot Line Follower",
+            "desc": "Robot Line follower yaitu robot beroda yang bergerak mengikuti garis.",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2016,
+            "made_at": "SMKN 1 Sidoarjo",
+            "achievement": "Juara 2 dalam event di SMK Negeri 1 Buduran 2016."
+        },
+        "power_amp": {
+            "name": "power_amp",
+            "title": "Power Amplifier",
+            "desc": "Rangkainan PCB yang dibuat untuk keperluan tugas akhir di SMK.",
+            "tags": "Elektronics",
+            "year": 2017,
+            "made_at": "SMKN 1 Sidoarjo"
+        },
+        "jam_digital": {
+            "name": "jam_digital",
+            "title": "Jam Digital",
+            "desc": "Jam digital yang dilengkapi dengan RTC, remote IR, dan modul relay. Memiliki banyak fitur seperti alarm, alarm untuk jadwal menyalakan/mematikan relay, kontrol relay dari remote",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2018
+        },
+        "bimbel": {
+            "name": "bimbel",
+            "title": "Aplikasi Bimbel Manggis",
+            "tags": "Database|MySQL|Desktop App|C#|WPF|.Net",
+            "year": 2018,
+            "desc": "Apliaksi Desktop yang digunakan untuk mengerjakan soal/tugas. Studi kasus pusat bimbingan belajar Manggis.",
+            "repository": "https://github.com/nazililham11/bimbel-wpf"
+        },
+        "dam": {
+            "name": "dam",
+            "title": "Smart DAM",
+            "desc": "Sistem bendungan pintar berbasis IoT dengan banyak firur seperti deteksi ketinggian air, pintu bendungan otomatis, ekskalator sampah, dan deteksi banyak sampah yang ditampung.",
+            "tags": "Arduino|ESP8266|C++|Database|MySQL|Elektronics|Web App|JavaScript|PHP",
+            "year": 2018,
+            "made_at": "AMIKOM University",
+            "achievement": "Juara 2 dalam event GKM (Gelar Karya AMIKOM) 2018.",
+            "repository": "https://github.com/nazililham11/e-Kali_IoT-Web"
+        },
+        "sumobot": {
+            "name": "sumobot",
+            "title": "Robot Sumobot",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2019,
+            "made_at": "HEXA",
+            "achievement": "Juara 4 dalam event KIROFEST Polman Bandung 2019.",
+            "desc": "Robot yang bertanding di arena untuk menjatuhkan/mengeluarkan lawan dari arena. Robot dibuat dengan Arduino dan dikendalikan menggunakan Joystick yang dimodifikasi dengan arduino dan modul wireless."
+        },
+        "bimbel_web": {
+            "name": "bimbel_web",
+            "title": "Aplikasi Bimbel Manggis V2",
+            "tags": "Database|MySQL|Web App|Laravel|PHP|Vue|JavaScript",
+            "year": 2019,
+            "desc": "Apliaksi Web yang merupakan pengembangan dari Apliaksi Bimbel Manggis yang berbasis Desktop. Proses remake ke dalam bentuk Web ditujukan untuk membuat aplikasi lebih multiplatform dan lebih mudah dalam pendistribusian / perawatan.",
+            "repository": "https://github.com/nazililham11/bimbel-laravel"
+        },
+        "controller": {
+            "name": "controller",
+            "title": "Wireless Joystick",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2019,
+            "made_at": "HEXA",
+            "desc": "Custom Wireless Controller dengan arduino dan NRF24L01. Controller digunakan untuk pengembangan/mengendalikan robot quadpod, sumobot, dan humanoid"
+        },
+        "bruang": {
+            "name": "bruang",
+            "title": "BRUANG (Aplikasi Booking Ruang)",
+            "tags": "Database|MySQL|Mobile App|Java|Web App|JavaScript|Laravel|PHP",
+            "year": 2019,
+            "made_at": "AMIKOM University",
+            "desc": "Aplikasi yang digunakan untuk proses booking ruang.",
+            "repository": "https://github.com/nazililham11/bruang-java"
+        },
+        "illegal_logging": {
+            "name": "illegal_logging",
+            "title": "Alat Deteksi Penebangan Hutan Liar",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2019,
+            "made_at": "Freelance",
+            "desc": "Dibuat Menggunakan Arduino dengan mendeteksi suara yang menyerupai suara gergaji mesin dengan sensor suara kemudian mengirimkan SMS sebagai notifikasi."
+        },
+        "alat_ukur": {
+            "name": "alat_ukur",
+            "title": "Alat Deteksi Jarak",
+            "tags": "Arduino|C++|ESP8266|Database|SQLite|Elektronics|Mobile App|Kotlin|WebSocket",
+            "year": 2019,
+            "made_at": "Freelance",
+            "desc": "Dibuat dengan arduino dan mendeteksi jarak mengunakan sensor jarak berbasis cahaya kemudian mengirimkan data jarak pada aplkiasi mobile.",
+            "repository": "https://github.com/nazililham11/measurement_tool"
+        },
+        "quadpod": {
+            "name": "quadpod",
+            "title": "Robot Quadpod",
+            "tags": "Arduino|C++|Elektronics|Web App|Vue|JavaScript",
+            "year": 2020,
+            "made_at": "HEXA",
+            "desc": "Robot laba-laba berkaki empat dan dapat di monitor/kontrol melalui aplikasi",
+            "repository": "https://github.com/nazililham11/Quadpod"
+        },
+        "hunger_monster": {
+            "name": "hunger_monster",
+            "title": "Hunger Monster",
+            "desc": "Game 2D bergenre teka-teki yang menceritakan pelarian makhluk seperti monster subjek uji coba dari laboratorium.",
+            "tags": "Game Dev|Construct2|Web App",
+            "year": 2020,
+            "made_at": "AMIKOM University",
+            "repository": "https://github.com/nazililham11/hunger_monster-construct2"
+        },
+        "lampu_jalan": {
+            "name": "lampu_jalan",
+            "title": "Lampu Jalan Otomatis",
+            "desc": "Lampu jalan yang dapat meredupkan/mematikan lampu saat tidak ada kendaraan yang lewat.",
+            "tags": "Arduino|C++|Elektronics",
+            "year": 2021,
+            "made_at": "Freelance",
+            "repository": "https://github.com/nazililham11/smart_street_lights-arduino"
+        },
+        "geo_form": {
+            "name": "geo_form",
+            "title": "Aplikasi Pencatatan tiang listrik",
+            "tags": "Database|SQLite|Mobile App|Kotlin",
+            "year": 2021,
+            "made_at": "Freelance",
+            "desc": "Aplikasi Pencatatan yang berfungsi mencatat data spesifik berupa data tiang listrik.",
+            "repository": "https://github.com/nazililham11/geo_form-android"
+        },
+        "deteksi_produk": {
+            "name": "deteksi_produk",
+            "title": "Deteksi Produk",
+            "tags": "AI|Tensorflow|Python|SSD MobileNetV2|Web App|Vue|JavaScript",
+            "year": 2022,
+            "made_at": "AMIKOM University",
+            "desc": "Aplikasi kasir yang mendeteksi produk dari gambar dan menghitung total harga nya. Training data menggunakan dataset sebanyak 562 gambar, yang terdiri dari gambar produk Coca-Cola, Floridina, dan Good Day.",
+            "repository": "https://github.com/nazililham11/deteksi_produk-electron"
+        },
+        "detak_jantung": {
+            "name": "detak_jantung",
+            "title": "Deteksi Ganguan Detak Jantung",
+            "tags": "Arduino|C++|ESP8266|Web App|Vue|JavaScript|WebSocket|Elektronics",
+            "year": 2022,
+            "made_at": "Freelance",
+            "desc": "Alat yang mendeteksi detak jantung dan dapat mengidentifikasi apakah detak jantung mengalami ganguan Atrial Fibrilasi.",
+            "repository": "https://github.com/nazililham11/heart_rate_sensor-iot"
+        },
+        "web_v1": {
+            "name": "web_v1",
+            "title": "Web Personal",
+            "tags": "Web App|Vue|JavaScript|Tailwind",
+            "year": 2022,
+            "desc": "Web pribadi yang menampilkan profil, resume, dan portofolio.",
+            "repository": "https://github.com/nazililham11/web"
+        },
+        "web_v2": {
+            "name": "web_v2",
+            "title": "Web Personal V2",
+            "tags": "Web App|Vue|JavaScript|Tailwind",
+            "year": 2023,
+            "desc": "Simplifikasi dari web v1 dengan perubahan UI dan penambahan tampilan sills."
+        },
+        "web_v3": {
+            "name": "web_v3",
+            "title": "Web Personal V3",
+            "tags": "Web App|Vue|JavaScript|Tailwind|Typescript",
+            "year": 2024,
+            "desc": "Perubahan tampilan UI dan penambahan beberapa informasi."
+        }
+    },
+    "images": {
+        "dmd-1.jpg": {
+            "project": "dmd",
+            "filename": "dmd-1.jpg",
+            "width": 566,
+            "height": 800,
+            "size_kb": 175,
+            "date": "2016-07",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABUDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAoEAACAgEDAgUFAQAAAAAAAAABAgMRAAQFIRJBFCIxUWEycYGR0eH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A1nk8RJcspBYiurgebH6N2bWRW7cluCxPvk8oK6qViXrqPDE19WP0TXrY69Lbn94DNukdmlDOzVXq1++GG3GMtL0LIDxdkfOGBFt2o8LqJHkLOhFAdYPf5OVx61JdySXzRxCIgliKJv4OLXZ5lWjJGTZ7n3+2dR7XMl+dST3Lf5gbtkiXKC3PB5/OGM0+3TpLI7vHTAAVfa/7hgf/2Q=="
+        },
+        "ricecooker-0.jpg": {
+            "project": "ricecooker",
+            "filename": "ricecooker-0.jpg",
+            "width": 375,
+            "height": 667,
+            "size_kb": 38,
+            "date": "2019-07",
+            "tags": ["concept", "ui"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABEDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAjEAACAgEDAwUAAAAAAAAAAAAAAQIRIQMTQRIiYTEyUZGx/8QAGAEAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDhU22Pcnx+ERbWUDbr0vFZ4NFUxW5L5X0BnYBRG0deSikkuFmKHPV1Ie6KV+EYpQaV2Ps4sXjT1HU/ACwAlTH/2Q=="
+        },
+        "bimbel-1.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-1.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 42,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMF/8QAIxAAAgIBAwMFAAAAAAAAAAAAAAECAxESFDEEU5ETISJRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEUFR/9oADAMBAAIRAxEAPwD29vT2oeCWVc1ZNKivSn8cw5ReaSi8PHu/pjtGTxLTWp2tWdNXFLh6eSjb09qHgzD1MpShFL8Z0Hasl4AAyQAEn//Z"
+        },
+        "bimbel-2.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-2.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 70,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAkEAACAQMDAwUAAAAAAAAAAAABAgADESEEEjETJIEyM2GCkf/EABYBAQEBAAAAAAAAAAAAAAAAAAACAf/EABoRAQEAAgMAAAAAAAAAAAAAAAABERIiUfD/2gAMAwEAAhEDEQA/AOhtoqxDVFFjkFAfE1RdM+URW+sdRFNRu1D/ADjMqinqAo9LjFxmby7TieiamkR7bQqW5sozKNCip9sfgm4FhJZwG22bwpm7Wmsh2F4xzCElRwhCB//Z"
+        },
+        "bimbel-3.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-3.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 30,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQX/xAAkEAACAAMHBQAAAAAAAAAAAAAAAQIDEgQRFCExU5ETUWGSof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAGBEBAQADAAAAAAAAAAAAAAAAAAERElH/2gAMAwEAAhEDEQA/APZl2aXQq5cN92eRWHk7UHqaNJwtPR5E9OF9+S5qYiMLJ24eDjsklu+hLwtDVQ06fShtems4AAigAA//2Q=="
+        },
+        "bimbel-0.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-0.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 57,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAECAwQF/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIAAxESQQQhIzEzkZL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARFR/9oADAMBAAIRAxEAPwDp3VMLsJSmmvvTPeQiMbVVumrC8nWbhGcyp2BAVQRyc4mtoycUaikH4k+pBpqBHjT8zMVzzBXJ9w2rItERAkREk//Z"
+        },
+        "photography-0.jpg": {
+            "project": "photography",
+            "filename": "photography-0.jpg",
+            "width": 800,
+            "height": 599,
+            "size_kb": 152,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAWAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwUE/8QAIxAAAgIBAwQDAQAAAAAAAAAAAQIAEQMEEiETMUFxFEKRYf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRQf/aAAwDAQACEQMRAD8Au1us+MR0moHzVxjrs71s049sZyO2MgKWB5uquuY3UU93cd/PuVe1nmyeLjrNWzhRsx/0C7mlhzjLjDGtw4IB7GZGR0QsQzA3ZiJqlXIWDbbEUirrqBix7r28+421B9RCEaAVQ/UfkkKvhR+QhAP/2Q=="
+        },
+        "photography-1.jpg": {
+            "project": "photography",
+            "filename": "photography-1.jpg",
+            "width": 800,
+            "height": 595,
+            "size_kb": 102,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAWAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAiEAACAgIBBAMBAAAAAAAAAAABAgARAyESBEFRcRMiMYH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAGxEAAgIDAQAAAAAAAAAAAAAAAAECAxESQTH/2gAMAwEAAhEDEQA/AOQ1dWL8RMVU7ZR7MwZDkycwW4kdp0YOnXICqdOCfJO5aV2CMaG+mQy4y/EN/a1LozL4goNWIOuVVCljvYNbhWrprpkvBcm/AxrsJSuyH6sR6hCTwjtNkEk94+bask0KhCNUNmf/2Q=="
+        },
+        "photography-2.jpg": {
+            "project": "photography",
+            "filename": "photography-2.jpg",
+            "width": 450,
+            "height": 800,
+            "size_kb": 85,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABEDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIEAf/EACYQAAEDAwIFBQAAAAAAAAAAAAEAAhEDElITkQQUITJRQXGCobH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAQAC/8QAHBEAAgICAwAAAAAAAAAAAAAAAAESUQIRISKh/9oADAMBAAIRAxEAPwDaKbfMKS1tpJMQVB4ep62n5Lgo1x2gHr5lI4sE8XRWtTxKKbOKwb9Ir1s5jlXhhF8Re/8AUms7o6+PdNFsdx2TRGR2RJKx0WLX51d0TlxkUW2rJBn/2Q=="
+        },
+        "photography-3.jpg": {
+            "project": "photography",
+            "filename": "photography-3.jpg",
+            "width": 800,
+            "height": 514,
+            "size_kb": 74,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAATAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAIhAAAgEDBAIDAAAAAAAAAAAAAQIAAxESBCExURMiQUJh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/8QAGREBAQADAQAAAAAAAAAAAAAAAAECEkER/9oADAMBAAIRAxEAPwDi0qXlJAYAjuNDQg0MsjnbbonqLU2NBsit7jaMJr7adqbKMvqRBltw8dek2UqxU8g2MiMPVo1Bkye/zY8/swaxJtsOopfRsau7VELObktuZlCE0GIHMsoBhCVX/9k="
+        },
+        "bensin-0.jpg": {
+            "project": "bensin",
+            "filename": "bensin-0.jpg",
+            "width": 800,
+            "height": 379,
+            "size_kb": 86,
+            "date": "2023-03",
+            "tags": ["software", "python"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAOAB4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EAB4QAAICAgIDAAAAAAAAAAAAAAACARIRkSExMkJS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMiz/TbHDNXynZEj9QHDt1ZthDtnFp2R3wUi8gf/2Q=="
+        },
+        "brosur-0.jpg": {
+            "project": "brosur",
+            "filename": "brosur-0.jpg",
+            "width": 800,
+            "height": 281,
+            "size_kb": 85,
+            "date": "2022-12",
+            "tags": ["illust"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAALAB4DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAQMAAgT/xAAhEAACAQQCAgMAAAAAAAAAAAABAgADBBEhEjFBgSJSwf/EABYBAQEBAAAAAAAAAAAAAAAAAAADBP/EABkRAAMBAQEAAAAAAAAAAAAAAAABEQISIv/aAAwDAQACEQMRAD8A13eqQzv5eZa1ANFfe4u5YtQBP2/DJTdktVKnB3IzybI+YC86TO+46gyhFHLfERV4comfK5gd2WkhU4JA36iXKQjeUj//2Q=="
+        },
+        "editing_test-0.jpg": {
+            "project": "editing_test",
+            "filename": "editing_test-0.jpg",
+            "width": 800,
+            "height": 450,
+            "size_kb": 77,
+            "date": "2016-02",
+            "tags": ["video", "editing", "aftereffect"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAARAB4DASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABAACBQP/xAApEAABBAECAwgDAAAAAAAAAAABAAIDEQQSIhMhMQUUMjRDUWHBcXKB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABkRAQEAAwEAAAAAAAAAAAAAAAEAAhFBIf/aAAwDAQACEQMRAD8APNM8dlxyXbtVG/6vNr+LHC40NlUPgpOTXd340cQ0g893RHjEskbCyIBjRp1HlaMjc8HSbutikDEYRRIb0WcTIE0N7QQaIaeQXJm4oLGsIaQDqrosYrnxMcWuO4+9IIfZTvOT/ok+gPyPpSlZ2zeR5fpEHhClJNRf/9k="
+        },
+        "controller-1.jpg": {
+            "project": "controller",
+            "filename": "controller-1.jpg",
+            "width": 685,
+            "height": 800,
+            "size_kb": 64,
+            "date": "2019-10",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABoDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBf/EAB0QAAICAwEBAQAAAAAAAAAAAAABAhESMVEhYeH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A71rLY5LqMuN35snFr6AuS6gyfCcObGmAvYPViwp0ARfv6bBCB//Z"
+        },
+        "bindercover-0.jpg": {
+            "project": "bindercover",
+            "filename": "bindercover-0.jpg",
+            "width": 620,
+            "height": 800,
+            "size_kb": 133,
+            "date": "2022-12",
+            "tags": ["illust", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABcDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EACAQAQACAgEEAwAAAAAAAAAAAAEAEQIhMRIiQVFhkaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAABABFh/9oADAMBAAIRAxEAPwDjWW/M0YbvKgkxeldR19xcIbbhgnJ9xM5Fb5PcSxgO2abuPNJ+SjXcQ5Ku98xtmUFBA0+IkcrxiVIF/9k="
+        },
+        "bimbel-4.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-4.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 57,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAEDAgQF/8QAJBAAAQMEAQMFAAAAAAAAAAAAAQACEQMSITEEEyJhMkFRguH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAMAwEAAhEDEQA/AOkOO8nVGPi1BSyD06UHXat2BGlU1rrYdaY1AhPVDMUjj5m2jO/R+qRxxOW0j9Fc4EZaAT5MIL5y1oHgq1W5jP2UIiBCIik//9k="
+        },
+        "bimbel-5.jpg": {
+            "project": "bimbel",
+            "filename": "bimbel-5.jpg",
+            "width": 800,
+            "height": 480,
+            "size_kb": 76,
+            "date": "2019-08",
+            "tags": ["software", "desktop", "c#"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAASAB4DASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAkEAACAQMDAwUAAAAAAAAAAAAAARECAxIEITETIjJRYXGBkv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGhEAAgMBAQAAAAAAAAAAAAAAAAECERJBIf/aAAwDAQACEQMRAD8A75cwtH7cKCysuU8LUN7dp2YJJvcw09zq0tQljxCL068IyrplVp5c42Z58CVp/Wmz+DZLu+i0BpjlCdhjTT40pfCADg9IM6knclpTAAxCR//Z"
+        },
+        "dmd-2.jpg": {
+            "project": "dmd",
+            "filename": "dmd-2.jpg",
+            "width": 566,
+            "height": 800,
+            "size_kb": 202,
+            "date": "2016-07",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABUDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAJRAAAgEDBAIBBQAAAAAAAAAAAQIRAAMhBBIiMUFhEzJxgZGx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AE0jYSTMEz+61QhRDmZ+kbIisU3fE+2Ik+c91JmVPH3yoHNEZv3oG0AL577oqmiMXbs5wsR+aKBVFdgwCOy8jxWR31NUa7zy2wgxLeK7tzS6m0rm3dCqXkBWIgE0q2iuFiSbbEnJIz/KCNHbXfcwZx5+9FMafTur3Cduffs0UH//2Q=="
+        },
+        "dmd-0.jpg": {
+            "project": "dmd",
+            "filename": "dmd-0.jpg",
+            "width": 800,
+            "height": 320,
+            "size_kb": 93,
+            "date": "2016-08",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAMAB4DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAMABf/EACMQAAIBBAEDBQAAAAAAAAAAAAECEQADBBIhIjGhQUJhgbH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ACVfHUTirfU8hiD5quJkXHvhDjhNvcQeK2Hfum2y7npAj1/aSHd1h2LAmCDQHDM11kewIJgHcjxUcldtTJEzx3p6kkspPAPHxXPz2LOAT2+qD/9k="
+        },
+        "iforgor-0.jpg": {
+            "project": "iforgor",
+            "filename": "iforgor-0.jpg",
+            "width": 800,
+            "height": 505,
+            "size_kb": 127,
+            "date": "2016-11",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAATAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAJxABAAEDAgUDBQAAAAAAAAAAAQIAAxEhMQUSIlGhBDJhEyNBQ4H/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6U+IkZsfpSQkxXP5pXieM/Z9u/V847VluSLdxMnMZzKWudXOlLIGKsJSwOA2fFBtjxJf0IhqMtvFScRNGVvA7JKucSWWEVzsuNu7rT8tuNw6oLrpFyu2X5KDV6izAkSBJKq8z3qrkiFzBvmiigi9ag2o9Pu0fFW8OtwOeZHCqfwxgoooP//Z"
+        },
+        "controller-2.jpg": {
+            "project": "controller",
+            "filename": "controller-2.jpg",
+            "width": 729,
+            "height": 800,
+            "size_kb": 59,
+            "date": "2019-10",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABsDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAwABBAIF/8QAIRABAAICAQQDAQAAAAAAAAAAAQIRABIhAzFhcRNBUSP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8P4/5b2+qw80NHS1Y2hzThkI7Axlz5MCdPp7i2leMPNEGMCtVvtz94PUixmj7wOySxb4PGWX8a62fr3whR4ybN3+YCbMYqc/VSw2Vt9sjJfWVgf/2Q=="
+        },
+        "controller-3.jpg": {
+            "project": "controller",
+            "filename": "controller-3.jpg",
+            "width": 729,
+            "height": 800,
+            "size_kb": 106,
+            "date": "2019-10",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABsDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAABAUCAwb/xAAkEAACAQMEAgIDAAAAAAAAAAABAgMABBEFEiExQWETFCJRUv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AG3N98LpDEA0nGc9DPino/HNQ7y/xdkCBN0fCsRz1XKS+vWwpf48+NuCaJVCa5mh1UAbnRgPx9eqq15mey1DCtIjtk+GyRV2yMwtIxMrGQDBJ77oMGytVl+y4AYHdljgA1mbUbFOWkWQr/I3YreoWjXloYkk2Hgj9H0aJYaRGkLfZCyM/WM8CgVZajDeOyRhgw5ww7FMollp8NluMW4s3Zal0V//2Q=="
+        },
+        "ricecooker-1.jpg": {
+            "project": "ricecooker",
+            "filename": "ricecooker-1.jpg",
+            "width": 375,
+            "height": 667,
+            "size_kb": 34,
+            "date": "2019-07",
+            "tags": ["concept", "ui"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABEDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAECBAMF/8QAIxAAAgECBgIDAAAAAAAAAAAAAQIAAxEEEiExUZETQRRTYf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDOKDsoYMNRxK+LUXXMvUESr41K1lFxsfUZWv8Aesv1qUZ8zcjqEi55hHRGlMXTWmqkvcDiNsZTPt+hPPvGpA3F9JGtrzD9hOd4R0R//9k="
+        },
+        "photography-6.jpg": {
+            "project": "photography",
+            "filename": "photography-6.jpg",
+            "width": 591,
+            "height": 800,
+            "size_kb": 176,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABYDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAwL/xAAmEAACAQMDAwQDAAAAAAAAAAABAgADESEEEjETIkEFQlFSYoGx/8QAGAEAAgMAAAAAAAAAAAAAAAAAAQMAAgT/xAAcEQEAAgMAAwAAAAAAAAAAAAABABECEiEDE0H/2gAMAwEAAhEDEQA/ANbW9XfTKWx2nJzOer1ruqhSyW5IaA9RQxK5vgkG84nUuv1JPtIkO9YHH4TBqai8vz8gRFNFqZq9thYAZtEGxDplLtU+2uVOQQJA9ySdwsZd6gO9PyP8klJhQaoOkjlhy3iMMwOkpo7WM9KUKjZv3eTYW/USfCk7iefERDS3NXq8hyyf/9k="
+        },
+        "microsoft_cityapp-0.jpg": {
+            "project": "microsoft_cityapp",
+            "filename": "microsoft_cityapp-0.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 137,
+            "date": "2016-04",
+            "tags": ["doc"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUB/8QAJBAAAgEDBAICAwAAAAAAAAAAAQIAAwQREiExQRRRIjJhkaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAZEQEBAQEBAQAAAAAAAAAAAAABABEhMVH/2gAMAwEAAhEDEQA/AIJcOpVAi6+tucxvXcqhU2+5/BmdXqUxcIaWABgt3G/IyitpG/YkGy88KwG6zvbn9Gcq3SA6atL5D2ZAXiKjLk5PeeJn1GFbA+pXkk8w5OfZZlXOP77l9FhqWmSWQ7YhCTI4zJojxmqYBbPB6EXe2ZwCSFPGBCEzttNv/9k="
+        },
+        "name_design-2.jpg": {
+            "project": "name_design",
+            "filename": "name_design-2.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 86,
+            "date": "2016-04",
+            "tags": ["illust"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAhEAACAgICAwADAAAAAAAAAAABAgMRACEEEgUxURMiQf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAZEQADAQEBAAAAAAAAAAAAAAAAAQIRMRL/2gAMAwEAAhEDEQA/AMrGkJHsDILJKyg90W/5W8qSCpAy3BgV44nf0VyTSZ9PDGxksD8x2a0uPNx54wLlsneiM6s0MadTQdSda9ZLmwIidkHUkiz9ypeoLlTw5ilr/Y3eEXMn46iMIhCihfzDDEidwc+V5HXqFjA+Viy+T5MqBWCUDehhhj0TbfT/2Q=="
+        },
+        "name_design-0.jpg": {
+            "project": "name_design",
+            "filename": "name_design-0.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 92,
+            "date": "2016-04",
+            "tags": ["illust"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEEBQID/8QAIBAAAgIDAAIDAQAAAAAAAAAAAREAAgMEEiEiMUFCYf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAaEQACAgMAAAAAAAAAAAAAAAAAAQISAxEx/9oADAMBAAIRAxEAPwDJaDkdnnrgqQT6mWdSlL1oLkgFNQKjGz0VTkX5MVv0UlNHb18AxvGST/QlMseLlRJlZIUZIf2Z3XYyUqKoevxERmYttXvXm3kTybsSlEQG230//9k="
+        },
+        "name_design-1.jpg": {
+            "project": "name_design",
+            "filename": "name_design-1.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 79,
+            "date": "2016-04",
+            "tags": ["illust"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAIhAAAgICAgICAwAAAAAAAAAAAQIAAxEhBBIxQRMUImFx/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDAv/EABoRAQEAAgMAAAAAAAAAAAAAAAEAAhEDEiH/2gAMAwEAAhEDEQA/AOHkKcFdyM/qOVBdc+CAZu+vSaMhj2x4xBdVMOPuNz6wGcAjU0txqmIWm1nOMn8fEXjVg349bl9taqxKrjJ9CbDynZ1X5Fr6nfXEsIKoOzaMIRk9pTQ9dVgJbX8jcnkVsoKnedgDEIQWV//Z"
+        },
+        "linefollower-0.jpg": {
+            "project": "linefollower",
+            "filename": "linefollower-0.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 76,
+            "date": "2016-04",
+            "tags": ["electronics", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEA//EACEQAAEFAAEEAwAAAAAAAAAAAAEAAgMRITEEEhNRIzJB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ACKLExLF5TGb7ga+uLUBwZ8bQXD8JpQvLxJKS0g3RNnFC3FRa19gXnsKeSLU4HObKyMG2uO7aokbqK1jIA3jhOPoYnONF9ckF2FCFQeKOOu1tV6WEpt1XSEKD//Z"
+        },
+        "stick_arm-0.jpg": {
+            "project": "stick_arm",
+            "filename": "stick_arm-0.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 132,
+            "date": "2016-05",
+            "tags": ["electronics", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EACIQAAIBBAICAwEAAAAAAAAAAAECAAMEETESIRMyQVFxwf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8Ajq+AANx+yt6lc8hhVOs/yYWlkXqDyVAgHziWFcioiUzheXZ4YwPoQpzNIlOFyVJDDGeoo9QivUUeqnoZlO+tm8gem5XegP2SnpMajex72RuFMinb0gAB2xzsx5UCrkwhMNs63Hsjf1Eq3xgDEIST/9k="
+        },
+        "photography_p1-2.jpg": {
+            "project": "photography_p1",
+            "filename": "photography_p1-2.jpg",
+            "width": 600,
+            "height": 800,
+            "size_kb": 51,
+            "date": "2017-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABYDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgQG/8QAJRAAAgIBAQcFAAAAAAAAAAAAAQIAAxEEBRITIlFxgSExMkFC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALbMt4ujTqvKfE2RJsa7cuaon0cZHcRvxOfdx9ZzNIsRCQWhA5lGai9XHupzHqWqzFlOQQMRbRqBWchflJs1pqdlVB57SBpvwiS7Vvbj846GEUf/2Q=="
+        },
+        "photography_p1-1.jpg": {
+            "project": "photography_p1",
+            "filename": "photography_p1-1.jpg",
+            "width": 450,
+            "height": 800,
+            "size_kb": 59,
+            "date": "2017-05",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABEDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIDAQQF/8QAJRAAAQQABQMFAAAAAAAAAAAAAQACAxEEEiExURRhkSIyM1Kh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwCgzfUrda2UsS+OQSl7nERj42mu2qTCioDPC5zMhp0b3WHKKtTuChW6mHn8QoOGbASuxrgPY+zmB1CWfAzhzYIw50V5i4ncr0WerWztytdfJ8pciHR90Jsx5PlCaP/Z"
+        },
+        "photography_p1-0.jpg": {
+            "project": "photography_p1",
+            "filename": "photography_p1-0.jpg",
+            "width": 800,
+            "height": 450,
+            "size_kb": 78,
+            "date": "2017-09",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAARAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQCAwUB/8QAKBAAAgIAAwUJAAAAAAAAAAAAAQIAAwQRMQUTIUFhIjQ1cXJzgrHB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMAAf/EABoRAAMAAwEAAAAAAAAAAAAAAAABAhExQSH/2gAMAwEAAhEDEQA/AKdpVkhQB0i9SWbxAlRCgjgOMdsvbDsubuqHiQNTFsRjLWOVVlgXqxjzkPqRoFwdNJBjF6rCcO7knsgkZ85xLi9aseYiVJgcNENoaj0xTmfKEJKeFn00bvDH9wfUpr7v8vyEJ2dmvSP/2Q=="
+        },
+        "indo_thai-2.jpg": {
+            "project": "indo_thai",
+            "filename": "indo_thai-2.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 166,
+            "date": "2016-11",
+            "tags": ["doc"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EACIQAAICAQQCAwEAAAAAAAAAAAECAxEABBIhMRNRFEJhgf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEVFh/9oADAMBAAIRAxEAPwBegmAmkduVC9ADNq6uBvqf6gyeZNNEkyws1k0L5sYRSLJFJJyAlGu+zlmoofI0zMQqjcBdeMZPdrlZto2nq+M06aAMY5N4KsDfv1joIdPK5iBNqLBI7GTOl8Sjp5WY1VBtpOK8bqoAYi+xeGGZlGiKSVIwPOVrjb2Kx+naZHZ43DF++P3DDFtwf//Z"
+        },
+        "indo_thai-1.jpg": {
+            "project": "indo_thai",
+            "filename": "indo_thai-1.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 109,
+            "date": "2016-11",
+            "tags": ["doc"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBBAUC/8QAJxAAAgEDAgYBBQAAAAAAAAAAAQIAAxESITEEExQiQXEkMkJRYeH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABoRAQACAwEAAAAAAAAAAAAAAAABEQIhMVH/2gAMAwEAAhEDEQA/ANHqKT1HRCQUNjfz6nJroSRoSDbQyu/E0OpqC6llxJG3cL/yIpFerIbuDDKw8GBoJXQahSZLcUftVbfsyqmNNMggBY9wfb8Xj6bCjk2AXmHK4FwYGKhA4oqfpIt7ls1Hpp8dUpnYWXYezCERxMpqSizPxVNmdiSDoxvCjigI5hJ876GEJJ8K1b//2Q=="
+        },
+        "indo_thai-0.jpg": {
+            "project": "indo_thai",
+            "filename": "indo_thai-0.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 105,
+            "date": "2016-11",
+            "tags": ["doc", "electronics", "arduino "],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAMEAQIF/8QAJBAAAQMEAgICAwAAAAAAAAAAAQIDEQAEEiETMQVBUWFScZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAABYf/aAAwDAQACEQMRAD8A7BR9g/qoXVLbcXlBSAIionvI3SLrjbOKB+Q7FOZfduHHcGiAgRMz8xQJfvuJxSYOtaP1TGLgXTeQUvRgieqSAhzmbxzAV2QCevn+1tat8AVpIJ9TGqDHkSQ6J69UIKm045ElQGh0KKKlWHWzeLipScVak9ior18JdwWYj0KKKGv/2Q=="
+        },
+        "photography-4.jpg": {
+            "project": "photography",
+            "filename": "photography-4.jpg",
+            "width": 551,
+            "height": 800,
+            "size_kb": 119,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABUDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBBAUC/8QAJRAAAQMEAAUFAAAAAAAAAAAAAQACEQMSITEEBRNRYRQigZHx/8QAGAEAAgMAAAAAAAAAAAAAAAAAAgMBBAX/xAAcEQACAgIDAAAAAAAAAAAAAAAAAQIDERITFHH/2gAMAwEAAhEDEQA/AKVKo5wF2ZwFd5e5vp4cdOIWZTMUxj9TqDjIGwHXR5RKWqyJsrc1g1Tb5Qs88U8k4PwEJvIin15lS43e/vMqHlkO6YddO06wTKaIgQAkemk2dMAIJIydoRMdvpCkE//Z"
+        },
+        "kitchenset-2.jpg": {
+            "project": "kitchenset",
+            "filename": "kitchenset-2.jpg",
+            "width": 800,
+            "height": 566,
+            "size_kb": 34,
+            "date": "2024-01",
+            "tags": ["woodworking", "3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAVAB4DASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAwUG/8QAKRAAAQMCAgoDAQAAAAAAAAAAAQACAwQREiEFFBUxUVSRotHhMjRikv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBDQdNDV1ro52Y2hhNrkZ3C3ti0Fvr9x8rmKNrjIcMr4yBvZvTmCXnZ+vtBt7FoOX7j5XM6RiZDXzRxjCxrrAJvBLzs/wDXtZ9QC2d4Ly83+R3lBEUroiS0DMWzV2uy/lCEEa5Jwb0VMjzI8uNrnghCD//Z"
+        },
+        "kitchenset-1.jpg": {
+            "project": "kitchenset",
+            "filename": "kitchenset-1.jpg",
+            "width": 800,
+            "height": 566,
+            "size_kb": 38,
+            "date": "2024-01",
+            "tags": ["woodworking", "3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAVAB4DASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAABQACAwQG/8QAJhAAAQQBAwQBBQAAAAAAAAAAAQACAwQRBRUhEhNToRZRVWGSov/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABMf/aAAwDAQACEQMRAD8A4NEqQ3Lbo52ktDCeDjnIS2z0vEf3KF0mCaxaLIJuy7oJ6vxxwl9r1EDO4n2s2W4ZW7Yqfj/py89qELIL0sUYw1rsAJ3bdT+5O9oC8ySO5KyWTuPa7Bd9UyJlQuvoTmWNrXEt6cOSPySxjHYi9qUkL5HP4IvaKszmzYfM4AF5yQFKUn//2Q=="
+        },
+        "kitchenset-0.jpg": {
+            "project": "kitchenset",
+            "filename": "kitchenset-0.jpg",
+            "width": 800,
+            "height": 565,
+            "size_kb": 21,
+            "date": "2025-02",
+            "tags": ["woodworking", "3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAVAB4DASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEEBQL/xAAhEAACAgICAQUAAAAAAAAAAAABAgADBBEFEjEVIVKSsf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEVH/2gAMAwEAAhEDEQA/AM7j8GvKrZnZgQ2vYgfsuejUfOz7LMSJmy9OtDi8CvNstWxnXoBrrKmTWKcm2tSSEYqNzhLHr30dl350dSCSxJJJJ8kxy6kRERBERJP/2Q=="
+        },
+        "jadwalsholat-0.jpg": {
+            "project": "jadwalsholat",
+            "filename": "jadwalsholat-0.jpg",
+            "width": 800,
+            "height": 428,
+            "size_kb": 70,
+            "date": "2018-05",
+            "tags": ["concept", "electronics", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAQAB4DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABBf/EABwQAQADAAIDAAAAAAAAAAAAAAEAAhESITFRcf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDvWcq/IPJ9x2uu7LCAVbo9sSty3iSO9BMqIqkD/9k="
+        },
+        "lemari-0.jpg": {
+            "project": "lemari",
+            "filename": "lemari-0.jpg",
+            "width": 329,
+            "height": 472,
+            "size_kb": 21,
+            "date": "2023-12",
+            "tags": ["woodworking", "3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABUDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwUE/8QAJxAAAQQBBAECBwAAAAAAAAAAAQACAxEEBRIhMRQTQUJRU2JxgZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAaEQEBAAIDAAAAAAAAAAAAAAABAAIREiFR/9oADAMBAAIRAxEAPwDnzszJjzpmMmeGtcQAD0qfPy/rv/qjUaOoTn7iqY2eo9rOBfF0ktvRJpcgTGZ7nkFtWeu0JtHjGOJgXF26vb8oQdxNWXmQyvzJXNaSC40eEkMMrZWuc00DZNhbLsRznE7xzfsl8F1VvHXyULlWcfacL4/0hWwQmHdZBuukLceinJ23/9k="
+        },
+        "lemari-1.jpg": {
+            "project": "lemari",
+            "filename": "lemari-1.jpg",
+            "width": 565,
+            "height": 800,
+            "size_kb": 9,
+            "date": "2023-08",
+            "tags": ["woodworking", "3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABUDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMG/8QAGxABAAICAwAAAAAAAAAAAAAAAAECAxESYbH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Az6l8sWrxjFjr3G9+pgAAAAAAP//Z"
+        },
+        "ricecooker-2.jpg": {
+            "project": "ricecooker",
+            "filename": "ricecooker-2.jpg",
+            "width": 375,
+            "height": 667,
+            "size_kb": 27,
+            "date": "2019-07",
+            "tags": ["concept", "ui"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABEDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAlEAACAgECBAcAAAAAAAAAAAABAgARAyFRBBNBYRQxQnGRkqH/xAAYAQADAQEAAAAAAAAAAAAAAAABAgMABP/EABgRAQEAAwAAAAAAAAAAAAAAAAAREiFh/9oADAMBAAIRAxEAPwDiALAEEWekVkWzRodamqcOrICS+ovyk+GTd/idGSUYcxt/yJSveJqEWGagBbad5Jz7F/tM1dANVPeC+M+kwb4ZFxKWIk6aP//Z"
+        },
+        "sumobot-0.jpg": {
+            "project": "sumobot",
+            "filename": "sumobot-0.jpg",
+            "width": 800,
+            "height": 603,
+            "size_kb": 185,
+            "date": "2019-05",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAkEAACAgICAgEFAQAAAAAAAAABAgMRABIhQQQx0RMyYYHh8f/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDXIHRmJ3YXwQe8srahV5AANs3RyD+S0cjKrhhZJ/Bv1ixHdQ0jEHoak8n+4GsgvdSA0OjnfGD7tcgXj1/uSMenLA1qQeKv99ZXxmSWRyUWx6o2APnApN4cEmzmFGc88jvJ/SmVDrrqT9pAv4wwwHSOdWAZgVrrrHihEZJAot7wwwP/2Q=="
+        },
+        "controller-0.jpg": {
+            "project": "controller",
+            "filename": "controller-0.jpg",
+            "width": 726,
+            "height": 406,
+            "size_kb": 106,
+            "date": "2020-01",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAARAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgH/xAAoEAACAgECBAUFAAAAAAAAAAABAgADERIhBSIx0RMjMkFRNIGCkaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AUrV0mqrTgNsMfO3ed8O13Yix1UHoVE0tnlBlJIIB5R12HaKtuu0gguqnA5h7ntAeEGCtiaxsRqXI/kg4uKw1YXSHxvgYj0srtqBdmzq35iMe36kfEqglocNnX1HwRiBRw76b8jMcT9CQhAhWDdPuYQgf/9k="
+        },
+        "artclass-0.jpg": {
+            "project": "artclass",
+            "filename": "artclass-0.jpg",
+            "width": 618,
+            "height": 800,
+            "size_kb": 179,
+            "date": "2020-06",
+            "tags": ["illust"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABcDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAKBAAAgEDAwMCBwAAAAAAAAAAAQIDAAQRBRIhEyJBI3FRYYGRkqHR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERMQL/2gAMAwEAAhEDEQA/ACO1t2uZGKKYwST7E8VC2sMjS9FI2GTwcjb9aTJps1um15YcMM45/lUhtZ2k5VR257jwftQ4KunUs7K3inXKKGAO0k4J/fzorPp9kN6Ps9VckgePFFC6TFoS980h75ISPGVaotZHkuBHA8W98+G96adEkAA66/ia0WWltZz9eSRXAUgADBrUDBtjbXUNzukkgZCCG2kkn4UVrV13YAOaKoFP/9k="
+        },
+        "rgb-0.jpg": {
+            "project": "rgb",
+            "filename": "rgb-0.jpg",
+            "width": 639,
+            "height": 800,
+            "size_kb": 195,
+            "date": "2018-02",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAeABgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EACMQAQACAQQCAQUAAAAAAAAAAAECEQADEiExQXEEEyIyUYH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AhokdHSuURmflGIL6xLXgRvZMeLNvV5RhFZcFvY+azW8UOETmvWBPX0ScBiDLwpX8xlJy2zpiqvddcYwFU83UuKO3MENHT1WVG+XT1ec+LP6mmEldocvNnjNxgSISkCnWB3cIF3IPPrGQ+TM05fayJSLU/WMD/9k="
+        },
+        "homedesign-0.jpg": {
+            "project": "homedesign",
+            "filename": "homedesign-0.jpg",
+            "width": 768,
+            "height": 634,
+            "size_kb": 112,
+            "date": "2023-07",
+            "tags": ["3d"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAZAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAL/xAAnEAACAQQBAwIHAAAAAAAAAAABAgMABBESIQUxURMiFBUyM4GRwf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAACH/2gAMAwEAAhEDEQA/ALzvIJ3AkZVVQcCqW0DzLuZ3x4pzRxFvchdpTpgOF8eazQTPF1dLQRhIx2G2SMjPeila5gMQVBcybnPOCc/wVx01vVhZ2Z3O2Pcarf288txlLn0lIAC74zTtokg3jTUYIyAc845qRSpHPIInbUod84z47fqhrWP5r8YZhwPo1PjHerp92T8V3SBIYn1bZuOeM88VktSXkmfRlDtsAw55rXQaFX//2Q=="
+        },
+        "amplifier-0.jpg": {
+            "project": "amplifier",
+            "filename": "amplifier-0.jpg",
+            "width": 800,
+            "height": 568,
+            "size_kb": 88,
+            "date": "2016-11",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAVAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRIVExQQMScYGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AO5Jy/H0KUuqyXJ1WMGNvm2BWfZ70ON1hL5G2luhxcWuQKatER8ar6AALrYKKXAAB//Z"
+        },
+        "namepcb-0.jpg": {
+            "project": "namepcb",
+            "filename": "namepcb-0.jpg",
+            "width": 800,
+            "height": 292,
+            "size_kb": 55,
+            "date": "2016-04",
+            "tags": ["electronics", "pcb"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAALAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAX/xAAgEAEBAAIBAwUAAAAAAAAAAAABAgARAyExkRJBYXGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOkS3SjWjtp7OFzOyqpDaCuaKkZ6hkMS7Xe/vAXHcnGnrevb3cnjG7XZXwr5xvFG3o+XCeOR2H7gf//Z"
+        },
+        "photography-5.jpg": {
+            "project": "photography",
+            "filename": "photography-5.jpg",
+            "width": 800,
+            "height": 600,
+            "size_kb": 97,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAhEAACAgIBBAMAAAAAAAAAAAABAgARAyESIjFBQlFhgf/EABgBAAMBAQAAAAAAAAAAAAAAAAACAwEE/8QAGxEAAgIDAQAAAAAAAAAAAAAAAAECQQMREiH/2gAMAwEAAhEDEQA/AOTwNRcTKGXp4qCAT2B1HjDZGAFAHyTLLJHXojhKhoposQKFWLlvWQs6BUHLSA3Uhw+Kw46gaqZ82+BN7VMXl2aK6DEVONWY+xvUQycToV9DUITnLFjKXezs777mQxlvYD8hCAM//9k="
+        },
+        "photography-7.jpg": {
+            "project": "photography",
+            "filename": "photography-7.jpg",
+            "width": 800,
+            "height": 450,
+            "size_kb": 134,
+            "date": "2018-01",
+            "tags": ["photography"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAARAB4DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAnEAACAQIDBwUAAAAAAAAAAAABAgADERIxMwQhUWFxgcETMlJysf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAaEQADAAMBAAAAAAAAAAAAAAAAAQIDEjFC/9oADAMBAAIRAxEAPwDQBUNbFv4EiDvTQC4Yk/EzJVGdsQc9QsuZMSCxa44Laa3ZynGhp6rbxTGWZY5yaXqVLkqtuRiDELUsjtzswtF69eqKhVScIyuI3YqJXBpdUdR+ynbPcPr5hCSivhOw6Z7+IVNRu0ISeRXEf//Z"
+        },
+        "clock-0.jpg": {
+            "project": "clock",
+            "filename": "clock-0.jpg",
+            "width": 640,
+            "height": 480,
+            "size_kb": 42,
+            "date": "2016-10",
+            "tags": ["electronics", "pcb", "arduino"],
+            "base64_thumb": "data:image/jpg;base64, /9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACAWGBwYFCAcGhwkIiAmMFA0MCwsMGJGSjpQdGZ6eHJmcG6AkLicgIiuim5woNqirr7EztDOfJri8uDI8LjKzsb/2wBDASIkJDAqMF40NF7GhHCExsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsb/wAARCAAXAB4DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABA//EACAQAAIDAAEEAwAAAAAAAAAAAAECAAMRIQQSEzEiMkH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhQf/aAAwDAQACEQMRAD8A61DgTLWfyKo+KgaTkyl+RF21+OsMw0NxHeEqXQ5QBF7CMEPb7ybZ20s9hYhQPrsKlruvc/6eJhaVw6V25Et1TsFBJIHqUpqTA9lgKkEbvvYSy4Kc0ylApI//2Q=="
+        }
+    }
+}
