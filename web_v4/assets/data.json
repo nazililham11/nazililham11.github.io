@@ -1,0 +1,1297 @@
+{
+    "categories": [
+        "AI",
+        "WebApp",
+        "Electronics",
+        "Database",
+        "MobileApp",
+        "GameDev",
+        "DesktopApp",
+        "WebScraping",
+        "Software",
+        "UserScript",
+        "Event"
+    ],
+    "projects": {
+        "2025__timetracker": {
+            "key": "2025__timetracker",
+            "year": 2025,
+            "title": "Time Tracking App",
+            "desc": "This project took months to finish since I experimented with numerous data structures, sampling methods, performance optimization, and data cleansing.",
+            "header": "timetracker",
+            "teaser": "Time tracking app that focuses to find out our screen time habits, productivity tracking, working time, and time spent on certain app or project.",
+            "tags": [
+                "Python",
+                "Software",
+                "Database",
+                "SQLite",
+                "FastAPI",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind",
+                "Typescript"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/TimeTracker"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 438718,
+                    "width": 1254,
+                    "height": 648,
+                    "name": "2025__timetracker_0.jpg"
+                }
+            ]
+        },
+        "2025__news": {
+            "key": "2025__news",
+            "year": 2025,
+            "title": "News App",
+            "desc": "Not only displays news but also can reads it aloud using TTS. This project took a few days because the majority of the components were reused from earlier projects.",
+            "header": "news",
+            "teaser": "An software that scrapes news from multiple websites using a Python script, stores the data in a cache for faster loading, and displays the data into single page via a Web UI.",
+            "tags": [
+                "Python",
+                "WebScraping",
+                "Software",
+                "FastAPI",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind",
+                "Typescript"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 744369,
+                    "width": 1293,
+                    "height": 720,
+                    "name": "2025__news_0.jpg"
+                }
+            ]
+        },
+        "2025__jobscraper": {
+            "key": "2025__jobscraper",
+            "year": 2025,
+            "title": "Job Scraper",
+            "desc": "The data was stored in database and it can used for future analysis such find ghost job, job trends, salary analysis, and recommendation.",
+            "header": "jobscraper",
+            "teaser": "Scraping job listing from various website using python script, and then displayed the data on Web UI.",
+            "tags": [
+                "Python",
+                "WebScraping",
+                "Software",
+                "Database",
+                "SQLite",
+                "FastAPI",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind",
+                "Typescript"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/JobScraper"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 318556,
+                    "width": 1290,
+                    "height": 721,
+                    "name": "2025__jobscraper_0.jpg"
+                },
+                {
+                    "size": 287102,
+                    "width": 794,
+                    "height": 407,
+                    "name": "2025__jobscraper_1.jpg"
+                }
+            ]
+        },
+        "2025__web_v4": {
+            "key": "2025__web_v4",
+            "year": 2025,
+            "title": "Web v4",
+            "desc": "",
+            "header": "web_v4",
+            "teaser": "4th version for my personal web, it still not SEO friendly, no analytics, just pure experiment.",
+            "tags": [
+                "Python",
+                "Software",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Typescript"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 544005,
+                    "width": 1296,
+                    "height": 728,
+                    "name": "2025__web_v4_0.jpg"
+                }
+            ]
+        },
+        "2024__coinscreener": {
+            "key": "2024__coinscreener",
+            "year": 2024,
+            "title": "Cryptocurrency screening script",
+            "desc": "It also provides a read-aloud notification when a coin moves or passes a specified threshold.",
+            "header": "coinscreener",
+            "teaser": "An realtime cryptocurrency prices from multiple sources and displays them in CLI.",
+            "tags": [
+                "Python",
+                "WebScraping",
+                "Software"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/CoinScreener"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 242443,
+                    "width": 1278,
+                    "height": 723,
+                    "name": "2024__coinscreener_0.jpg"
+                }
+            ]
+        },
+        "2024__editor": {
+            "key": "2024__editor",
+            "year": 2024,
+            "title": "Text Editor",
+            "desc": "This app uses code editor-like environment, so it has leveraging the code editing features such as multiple cursors, swap lines, duplicate lines, code highlight, and many others. This app uses Firebase to store data, allowing it to sync and be used on multiple devices.",
+            "header": "editor",
+            "teaser": "It's not a great text editor, and I haven't updated the project since day one, but I still use it to take notes or write new ideas.",
+            "tags": [
+                "Vanilla",
+                "Firebase",
+                "Software",
+                "Database",
+                "CodeMirror",
+                "JavaScript",
+                "WebApp"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/editor"
+                ],
+                [
+                    "demo",
+                    "https://nazililham11.github.io/editor"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 44253,
+                    "width": 1282,
+                    "height": 713,
+                    "name": "2024__editor_0.jpg"
+                }
+            ]
+        },
+        "2023__animagine_extra": {
+            "key": "2023__animagine_extra",
+            "year": 2023,
+            "title": "Animagine Extra",
+            "desc": "",
+            "header": "animagine_extra",
+            "teaser": "An userscript that gives extra features for Animagine's huggingface space, such history, code editor like prompt editor, prompt suggestion and auto saved.",
+            "tags": [
+                "Vanilla",
+                "Firebase",
+                "Software",
+                "Database",
+                "CodeMirror",
+                "JavaScript",
+                "WebApp",
+                "UserScript"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/animagine-extra"
+                ]
+            ],
+            "achievements": null,
+            "images": []
+        },
+        "2022__product_indetification_system": {
+            "key": "2022__product_indetification_system",
+            "year": 2022,
+            "title": "Product Identification System for Cashier App",
+            "desc": "",
+            "header": "product_indetification_system",
+            "teaser": "Leveraging machine learning-based object detection as a product identification system for cashier applications.",
+            "tags": [
+                "Python",
+                "Software",
+                "Tensorflow",
+                "AI",
+                "JavaScript",
+                "Vue",
+                "WebApp"
+            ],
+            "links": [
+                [
+                    "notebook",
+                    "https://gist.github.com/nazililham11/f65690eb39670f37cfb15793dee99bcb"
+                ],
+                [
+                    "repos",
+                    "https://github.com/nazililham11/training_deteksi_produk"
+                ],
+                [
+                    "repos",
+                    "https://github.com/nazililham11/deteksi_produk-electron"
+                ],
+                [
+                    "utils",
+                    "https://github.com/nazililham11/detection_util_scripts"
+                ],
+                [
+                    "demo",
+                    "https://nazililham11.github.io/deteksi-produk"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 51655,
+                    "width": 854,
+                    "height": 461,
+                    "name": "2022__product_indetification_system_0.jpg"
+                }
+            ]
+        },
+        "2023__bensin": {
+            "key": "2023__bensin",
+            "year": 2023,
+            "title": "Hoyo gaming utils",
+            "desc": "",
+            "header": "bensin",
+            "teaser": "A python script that focuses to displaying in game stats from multiple accounts on various hoyo games.",
+            "tags": [
+                "Python",
+                "Software"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/bensin"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 89087,
+                    "width": 800,
+                    "height": 379,
+                    "name": "2023__bensin_0.jpg"
+                }
+            ]
+        },
+        "2024__web_v3": {
+            "key": "2024__web_v3",
+            "year": 2024,
+            "title": "Web Personal V3",
+            "desc": "",
+            "header": "web_v3",
+            "teaser": "3rd version of my personal web.",
+            "tags": [
+                "Software",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 73956,
+                    "width": 1363,
+                    "height": 638,
+                    "name": "2024__web_v3_0.jpg"
+                }
+            ]
+        },
+        "2023__web_v2": {
+            "key": "2023__web_v2",
+            "year": 2023,
+            "title": "Web Personal V2",
+            "desc": "",
+            "header": "web_v2",
+            "teaser": "Adding more information and change the interface but keeping the minimalist concept.",
+            "tags": [
+                "Software",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://nazililham11.github.io/web_v2"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 76409,
+                    "width": 1230,
+                    "height": 631,
+                    "name": "2023__web_v2_0.jpg"
+                }
+            ]
+        },
+        "2022__graduate_collage": {
+            "key": "2022__graduate_collage",
+            "year": 2022,
+            "title": "Graduate from Collage",
+            "desc": "",
+            "header": "graduate_collage",
+            "teaser": "Graduate from AMIKOM University with major in Informatics Engineering, and GPA 3,45 out of 4,0.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": []
+        },
+        "2022__web_v1": {
+            "key": "2022__web_v1",
+            "year": 2022,
+            "title": "Web Personal",
+            "desc": "",
+            "header": "web_v1",
+            "teaser": "My first personal web, that focuses on minimalist design.",
+            "tags": [
+                "Software",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Tailwind"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/web"
+                ],
+                [
+                    "demo",
+                    "https://nazililham11.github.io/web"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 55278,
+                    "width": 1347,
+                    "height": 647,
+                    "name": "2022__web_v1_0.jpg"
+                }
+            ]
+        },
+        "2022__detak_jantung": {
+            "key": "2022__detak_jantung",
+            "year": 2022,
+            "title": "Detection of atrial fibrillation in Heartbeat",
+            "desc": "Because the device resource are limited and they need to work in really high frequency, so we moving the heavy data processing to a web interface while the hardware focuses on reading heart rate sensors and transmitting data in batch via the WebSocket protocol. This enables real-time heart rate data processing while minimizing data latency or loss during transmission.",
+            "header": "detak_jantung",
+            "teaser": "A prototype device that detects atrial fibrillation by recording sample heart rate patterns and compares them with a dataset.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "ESP8266",
+                "C",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Arduino",
+                "WebSocket"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/heart_rate_sensor-iot"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 98366,
+                    "width": 1054,
+                    "height": 594,
+                    "name": "2022__detak_jantung_0.jpg"
+                }
+            ]
+        },
+        "2021__frecord": {
+            "key": "2021__frecord",
+            "year": 2021,
+            "title": "Expense Record",
+            "desc": "Aside from expenses tracking, this app also can provide a rough estimate of the typical calories and water that I consume each day by analyzing the expense data.",
+            "header": "frecord",
+            "teaser": "Expense tracking tool that focuses on data entry efficiency by allowing you to enter a few words and then it processed into a longer version.",
+            "tags": [
+                "ExpressJS",
+                "Software",
+                "Database",
+                "SQLite",
+                "JavaScript",
+                "Vue",
+                "WebApp"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/frecords-expressjs"
+                ]
+            ],
+            "achievements": null,
+            "images": []
+        },
+        "2021__lampu_jalan": {
+            "key": "2021__lampu_jalan",
+            "year": 2021,
+            "title": "Auto dimming Street lights",
+            "desc": "However, the errors occurs when a vehicle moves too fast, or stopped nearby the sensor. And the approach I apply is to arrange sensors diagonally across the road. By that solution I can apply more complex algorithms to get better accuracy, reduce the sensor and controller workload, also able to detect the vehicle lane positions, direction, and speed.",
+            "header": "lampu_jalan",
+            "teaser": "Prototype of a street lamp that automatically dims when no vehicles pass.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "3DDesign",
+                "C",
+                "Arduino"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/smart_street_lights-arduino"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 112155,
+                    "width": 677,
+                    "height": 560,
+                    "name": "2021__lampu_jalan_0.jpg"
+                },
+                {
+                    "size": 349435,
+                    "width": 2480,
+                    "height": 3508,
+                    "name": "2021__lampu_jalan_1.jpg"
+                },
+                {
+                    "size": 6065,
+                    "width": 402,
+                    "height": 362,
+                    "name": "2021__lampu_jalan_2.jpg"
+                }
+            ]
+        },
+        "2020__hunger_monster": {
+            "key": "2020__hunger_monster",
+            "year": 2020,
+            "title": "Hunger Monster",
+            "desc": "Those monster can get another ability by eating other monster, which helps them solve the puzzles they meet along the way.",
+            "header": "hunger_monster",
+            "teaser": "2D platformer game with puzzle genre, that story about a little pink monster to escape the laboratory.",
+            "tags": [
+                "Construct2",
+                "GameDev"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/hunger_monster-construct2"
+                ],
+                [
+                    "demo",
+                    "https://nazililham11.github.io/hunger-monster"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 58010,
+                    "width": 854,
+                    "height": 478,
+                    "name": "2020__hunger_monster_0.jpg"
+                },
+                {
+                    "size": 349168,
+                    "width": 1024,
+                    "height": 576,
+                    "name": "2020__hunger_monster_1.jpg"
+                },
+                {
+                    "size": 197723,
+                    "width": 1024,
+                    "height": 571,
+                    "name": "2020__hunger_monster_2.jpg"
+                }
+            ]
+        },
+        "2020__quadpod": {
+            "key": "2020__quadpod",
+            "year": 2020,
+            "title": "Robot Quadpod",
+            "desc": "This project are unfinished because the funding was stopped due to the covid pandemic.",
+            "header": "quadpod",
+            "teaser": "A spider like robot that made for competition, which the robot compete to extinguish fire inside a maze.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "3DDesign",
+                "C",
+                "JavaScript",
+                "Vue",
+                "WebApp",
+                "Arduino",
+                "Serial"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/Quadpod"
+                ],
+                [
+                    "repos",
+                    "https://github.com/nazililham11/Quadpod_Control"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 63039,
+                    "width": 854,
+                    "height": 641,
+                    "name": "2020__quadpod_0.jpg"
+                },
+                {
+                    "size": 77316,
+                    "width": 642,
+                    "height": 480,
+                    "name": "2020__quadpod_1.jpg"
+                }
+            ]
+        },
+        "2020__scholarship": {
+            "key": "2020__scholarship",
+            "year": 2020,
+            "title": "2020 Scholarship",
+            "desc": "",
+            "header": "scholarship",
+            "teaser": "Receiving the Outstanding Student Scholarship from AMIKOM University.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": []
+        },
+        "2019__bruang": {
+            "key": "2019__bruang",
+            "year": 2019,
+            "title": "BRuang (Classroom booking app)",
+            "desc": "At that moment everytime when the teacher wanted to reschedule the class meeting they need to booking the classroom on the main office, and the data was stored on excel and the data structure are cluttered.",
+            "header": "bruang",
+            "teaser": "An concept app for classroom booking on my collage.",
+            "tags": [
+                "Laravel",
+                "Software",
+                "Database",
+                "MobileApp",
+                "MySQL",
+                "JavaScript",
+                "WebApp",
+                "PHP",
+                "Java"
+            ],
+            "links": [
+                [
+                    "repos-server",
+                    "https://github.com/nazililham11/bruang-laravel"
+                ],
+                [
+                    "repos-android",
+                    "https://github.com/nazililham11/bruang-java"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 51465,
+                    "width": 517,
+                    "height": 683,
+                    "name": "2019__bruang_0.jpg"
+                },
+                {
+                    "size": 51551,
+                    "width": 650,
+                    "height": 816,
+                    "name": "2019__bruang_1.jpg"
+                }
+            ]
+        },
+        "2019__controller": {
+            "key": "2019__controller",
+            "year": 2019,
+            "title": "Wireless Joystick",
+            "desc": "Previously, our team used PS3 wireless joystick as controller to control every robotic projects, however they easily to get broken and range are limited.",
+            "header": "controller",
+            "teaser": "An custom joystick controller to controlling robotics projects, It uses PlayStation Joystick frame so its have exactly same experience but with more range, battery life, configurable and easier to repair.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "C",
+                "PCB",
+                "Arduino"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 194057,
+                    "width": 847,
+                    "height": 764,
+                    "name": "2019__controller_0.jpg"
+                },
+                {
+                    "size": 70462,
+                    "width": 854,
+                    "height": 641,
+                    "name": "2019__controller_1.jpg"
+                },
+                {
+                    "size": 80714,
+                    "width": 854,
+                    "height": 641,
+                    "name": "2019__controller_2.jpg"
+                }
+            ]
+        },
+        "2019__bimbel_web": {
+            "key": "2019__bimbel_web",
+            "year": 2019,
+            "title": "Bimbel Manggis V2",
+            "desc": "This version addresses platform limitations while also allowing for faster development, better distribution, and maintenance.",
+            "header": "bimbel_web",
+            "teaser": "It is the second version of the bimbel manggis app, which is web-based.",
+            "tags": [
+                "Laravel",
+                "Software",
+                "Database",
+                "JavaScript",
+                "MySQL",
+                "Vue",
+                "WebApp",
+                "PHP"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/bimbel-laravel"
+                ]
+            ],
+            "achievements": null,
+            "images": []
+        },
+        "2019__sumobot": {
+            "key": "2019__sumobot",
+            "year": 2019,
+            "title": "Sumobot",
+            "desc": "",
+            "header": "sumobot",
+            "teaser": "An robot that made with HEXA robotics team for competition held at KIROFEST Bandung.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "C",
+                "PCB",
+                "Arduino"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/sumobot-arduino"
+                ]
+            ],
+            "achievements": [
+                "🏆 4th place of on KIROFEST Bandung 2019 (a competition participated by international contestants)."
+            ],
+            "images": [
+                {
+                    "size": 71536,
+                    "width": 854,
+                    "height": 356,
+                    "name": "2019__sumobot_0.jpg"
+                },
+                {
+                    "size": 84642,
+                    "width": 854,
+                    "height": 321,
+                    "name": "2019__sumobot_1.jpg"
+                }
+            ]
+        },
+        "2019__alat_ukur": {
+            "key": "2019__alat_ukur",
+            "year": 2019,
+            "title": "Vehicle measurement devices",
+            "desc": "While working on this project I realized there was a major design flaw. That its much easier to measure vehicle dimension by taking photo, detect the edge of vehicle, and then measuring it by scale or trigonometry formula. But at that time i didn't have enough time to do the major changes.",
+            "header": "alat_ukur",
+            "teaser": "An device that help departement of transportation to measuring the dimensions of a vehicles, shaped like gun for easier to handle and the result are displayed on LCD and  smartphones in real-time.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "ESP8266",
+                "C",
+                "3DDesign",
+                "Database",
+                "SQLite",
+                "MobileApp",
+                "Arduino",
+                "WebSocket",
+                "Kotlin"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/measurement_tool"
+                ],
+                [
+                    "repos",
+                    "https://github.com/nazililham11/measurement_tool-kotlin"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 95677,
+                    "width": 827,
+                    "height": 387,
+                    "name": "2019__alat_ukur_0.jpg"
+                },
+                {
+                    "size": 76218,
+                    "width": 613,
+                    "height": 640,
+                    "name": "2019__alat_ukur_1.jpg"
+                },
+                {
+                    "size": 16332,
+                    "width": 374,
+                    "height": 352,
+                    "name": "2019__alat_ukur_2.jpg"
+                }
+            ]
+        },
+        "2019__illegal_logging_detector": {
+            "key": "2019__illegal_logging_detector",
+            "year": 2019,
+            "title": "Illegal Logging Detector",
+            "desc": "",
+            "header": "illegal_logging_detector",
+            "teaser": "An tool made of Arduino microcontroller that detects illegal logging by identifying chainsaw sounds pattern then sends an alert notification.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "Arduino",
+                "C"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": []
+        },
+        "2018__hexa": {
+            "key": "2018__hexa",
+            "year": 2018,
+            "title": "Joining HEXA Robotics",
+            "desc": "",
+            "header": "hexa",
+            "teaser": "Joining HEXA Robotics Community.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 161927,
+                    "width": 1024,
+                    "height": 576,
+                    "name": "2018__hexa_0.jpg"
+                }
+            ]
+        },
+        "2018__iot_dam": {
+            "key": "2018__iot_dam",
+            "year": 2018,
+            "title": "IoT DAM",
+            "desc": "The system has plenty of features such as water level, dam, notification system, water generator, trash lifter, and trash level notification. The setup includes six ESP microcontroller boards and a free tier website as a server. It is my first website, and the server get overloaded after running for few minutes.",
+            "header": "iot_dam",
+            "teaser": "DAM small that is connected to the Internet of Things for better control, analytics, and other purposes.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "ESP8266",
+                "C",
+                "Database",
+                "JavaScript",
+                "MySQL",
+                "WebApp",
+                "Arduino",
+                "PHP"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/e-Kali_IoT-Web"
+                ]
+            ],
+            "achievements": [
+                "🏆 2nd Place of GKM 2018 (University level competition)."
+            ],
+            "images": [
+                {
+                    "size": 88812,
+                    "width": 853,
+                    "height": 640,
+                    "name": "2018__iot_dam_0.jpg"
+                },
+                {
+                    "size": 47238,
+                    "width": 854,
+                    "height": 621,
+                    "name": "2018__iot_dam_1.jpg"
+                },
+                {
+                    "size": 24036,
+                    "width": 720,
+                    "height": 339,
+                    "name": "2018__iot_dam_2.jpg"
+                },
+                {
+                    "size": 37310,
+                    "width": 482,
+                    "height": 640,
+                    "name": "2018__iot_dam_3.jpg"
+                }
+            ]
+        },
+        "2018__bimbel": {
+            "key": "2018__bimbel",
+            "year": 2018,
+            "title": "Bimbel Manggis",
+            "desc": "While working on this project I realized there was a major design flaw. That this app  only working on desktop, because on small scale company its is to expensive to bought an pc for every students. And i think it would be better if this app also support for smartphones that most of student already have one, besides this app aren't compute heavy software.",
+            "header": "bimbel",
+            "teaser": "And desktop based app that focuses to help teacher to test a students by a set of questions.",
+            "tags": [
+                "WPF",
+                "Database",
+                "CSharp",
+                "MySQL",
+                ".Net",
+                "DesktopApp"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/bimbel-wpf"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 31325,
+                    "width": 800,
+                    "height": 480,
+                    "name": "2018__bimbel_0.jpg"
+                },
+                {
+                    "size": 78328,
+                    "width": 800,
+                    "height": 480,
+                    "name": "2018__bimbel_1.jpg"
+                }
+            ]
+        },
+        "2018__jam_digital": {
+            "key": "2018__jam_digital",
+            "year": 2018,
+            "title": "Digital Clock",
+            "desc": "This project combines a digital clock, buttons, IR remote, relay modules, RTC, speaker, and batteries into a single unit. Aside from the clock, it contains an alarm system and a relay that can be controlled via remote or an alarm. After working on this project, I realized that I need to improve my coding skills, because to change or adding new features requires changing over 80% of the code.",
+            "header": "jam_digital",
+            "teaser": "It's basically a frankenstain from some of my failed projects.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "Arduino",
+                "C"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 19747,
+                    "width": 368,
+                    "height": 236,
+                    "name": "2018__jam_digital_0.jpg"
+                },
+                {
+                    "size": 20548,
+                    "width": 355,
+                    "height": 251,
+                    "name": "2018__jam_digital_1.jpg"
+                },
+                {
+                    "size": 16383,
+                    "width": 423,
+                    "height": 305,
+                    "name": "2018__jam_digital_2.jpg"
+                }
+            ]
+        },
+        "2018__prayer_clock": {
+            "key": "2018__prayer_clock",
+            "year": 2018,
+            "title": "Prayer Clock",
+            "desc": "",
+            "header": "prayer_clock",
+            "teaser": "A digital clock that displays the time of Muslim prayer, the device contains a large number of Seven Segment modules and Relays as well as LCD, keypad, ROM, And RTC.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "CVAVR",
+                "C"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://gist.github.com/nazililham11/862112b44553b69981b24c50a302be04"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 1641864,
+                    "width": 3511,
+                    "height": 3221,
+                    "name": "2018__prayer_clock_0.jpg"
+                }
+            ]
+        },
+        "2017__power_amp": {
+            "key": "2017__power_amp",
+            "year": 2017,
+            "title": "Power Amplifier PCB",
+            "desc": "This PCB took 6 hours to design and 3 hours to create. It reminds me that I am the slowest person in the classroom who designs the PCB but the fastest when it comes to making the PCB (etching, assembly, and soldering).",
+            "header": "power_amp",
+            "teaser": "PCB assembly made for the purpose of SMK (vocational school) graduation exams.",
+            "tags": [
+                "Electronics",
+                "PCB"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 105645,
+                    "width": 567,
+                    "height": 491,
+                    "name": "2017__power_amp_0.jpg"
+                },
+                {
+                    "size": 64059,
+                    "width": 458,
+                    "height": 453,
+                    "name": "2017__power_amp_1.jpg"
+                }
+            ]
+        },
+        "2017__vocational_school_graduate": {
+            "key": "2017__vocational_school_graduate",
+            "year": 2017,
+            "title": "Graduate from Vocational School",
+            "desc": "",
+            "header": "vocational_school_graduate",
+            "teaser": "I graduated from Vocational School with a GPA of 75,9 out of 100 for my degree in Electrical Engineering.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": []
+        },
+        "2016__arm_robot_app": {
+            "key": "2016__arm_robot_app",
+            "year": 2016,
+            "title": "App to control an robotic arm",
+            "desc": "This project was held on Indo-Thai partnership and only have one day working for this project.",
+            "header": "arm_robot_app",
+            "teaser": "An wrapper app for GRBL to controlling robotic arm, by saving bunch of coordinates.",
+            "tags": [
+                "VisualBasic",
+                "Software",
+                "C",
+                "Serial",
+                "Arduino",
+                "WinForm"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 509926,
+                    "width": 795,
+                    "height": 533,
+                    "name": "2016__arm_robot_app_0.jpg"
+                }
+            ]
+        },
+        "2016__student_exchange": {
+            "key": "2016__student_exchange",
+            "year": 2016,
+            "title": "Student Exchange Indo-Thai",
+            "desc": "",
+            "header": "student_exchange",
+            "teaser": "Participated in a student exchange with Muaklek Technical College Thailand in 2016 for 2 Weeks.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 2655777,
+                    "width": 4568,
+                    "height": 2520,
+                    "name": "2016__student_exchange_0.jpg"
+                },
+                {
+                    "size": 2615870,
+                    "width": 4608,
+                    "height": 2688,
+                    "name": "2016__student_exchange_1.jpg"
+                }
+            ]
+        },
+        "2016__line_follower": {
+            "key": "2016__line_follower",
+            "year": 2016,
+            "title": "Line Follower Robot",
+            "desc": "This project had a very tight timeframe due to troubleshooting on the motor drivers and sensors, and I even wrote the code on-site (a few hours before the competition began).",
+            "header": "line_follower",
+            "teaser": "An robot made for competition and its 2nd arduino based project that i made.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "Arduino",
+                "C"
+            ],
+            "links": null,
+            "achievements": [
+                "🏆 2nd place of line follower competition (district level competition)."
+            ],
+            "images": [
+                {
+                    "size": 86216,
+                    "width": 853,
+                    "height": 640,
+                    "name": "2016__line_follower_0.jpg"
+                },
+                {
+                    "size": 60977,
+                    "width": 853,
+                    "height": 640,
+                    "name": "2016__line_follower_1.jpg"
+                }
+            ]
+        },
+        "2016__dmd": {
+            "key": "2016__dmd",
+            "year": 2016,
+            "title": "Dot Matrix Display",
+            "desc": "",
+            "header": "dmd",
+            "teaser": "My greatest project at the time, it uses multiple stacks of PCBs, each with specific uses (drivers, controllers, power, and buttons).",
+            "tags": [
+                "Electronics",
+                "Software",
+                "3DDesign",
+                "C",
+                "PCB",
+                "Arduino"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 62385,
+                    "width": 854,
+                    "height": 480,
+                    "name": "2016__dmd_0.jpg"
+                },
+                {
+                    "size": 124931,
+                    "width": 622,
+                    "height": 584,
+                    "name": "2016__dmd_1.jpg"
+                },
+                {
+                    "size": 32879,
+                    "width": 627,
+                    "height": 540,
+                    "name": "2016__dmd_2.jpg"
+                }
+            ]
+        },
+        "2016__jnn_malang_internship": {
+            "key": "2016__jnn_malang_internship",
+            "year": 2016,
+            "title": "Internship at JNN Malang",
+            "desc": "",
+            "header": "jnn_malang_internship",
+            "teaser": "I learned a lot more about PCB design, 3D Design, Woodworking, and other topics throughout my three month internship.",
+            "tags": [
+                "Event"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 2260372,
+                    "width": 2592,
+                    "height": 1944,
+                    "name": "2016__jnn_malang_internship_0.jpg"
+                }
+            ]
+        },
+        "2016__bad_usb": {
+            "key": "2016__bad_usb",
+            "year": 2016,
+            "title": "Bad USB (USB Rubber Ducky)",
+            "desc": "This device works by acting as a keyboard, thus it should work on the majority of devices and will not be detected by antivirus software. After a few revisions, I made the device smaller and capable of running and storing scripts using a single USB connection; additionally, I can configure the scripts using smartphones.",
+            "header": "bad_usb",
+            "teaser": "An USB device tool that executes a custom script (such as displaying / capturing all saved passwords or another malicious script).",
+            "tags": [
+                "Electronics",
+                "Software",
+                "Arduino",
+                "C"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/nazililham11/bad-usb"
+                ],
+                [
+                    "save_info.bat",
+                    "https://gist.github.com/nazililham11/5a3aa929abf4437ecf1a1aa7ab6412f9"
+                ],
+                [
+                    "restart_loop.bat",
+                    "https://gist.github.com/nazililham11/bf9cdcbda5690ba6b103078db30f659a"
+                ]
+            ],
+            "achievements": null,
+            "images": [
+                {
+                    "size": 468872,
+                    "width": 696,
+                    "height": 438,
+                    "name": "2016__bad_usb_0.jpg"
+                }
+            ]
+        },
+        "2015__wifi_jammer": {
+            "key": "2015__wifi_jammer",
+            "year": 2015,
+            "title": "Wi-Fi Jammer",
+            "desc": "",
+            "header": "wifi_jammer",
+            "teaser": "Wi-Fi jamming devices using ESP microcontroller board that can controlled using smartphones.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "ESP8266",
+                "C",
+                "Arduino"
+            ],
+            "links": [
+                [
+                    "repos",
+                    "https://github.com/SpacehuhnTech/esp8266_deauther"
+                ]
+            ],
+            "achievements": null,
+            "images": []
+        },
+        "2015__city_app_competition": {
+            "key": "2015__city_app_competition",
+            "year": 2015,
+            "title": "Microsoft City App Appathon Competition",
+            "desc": "I don't know why we are joining this competition; Our team consist of four people, none of them have programming experience, and we have to compete against college students.",
+            "header": "city_app_competition",
+            "teaser": "I'm taking part in the Microsoft City App Appathon Competition 2015, that to compete to create an app that solves a city-level problem.",
+            "tags": [
+                "VisualBasic",
+                "DesktopApp"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": [
+                {
+                    "size": 946333,
+                    "width": 801,
+                    "height": 513,
+                    "name": "2015__city_app_competition_0.jpg"
+                }
+            ]
+        },
+        "2015__door_lock_system": {
+            "key": "2015__door_lock_system",
+            "year": 2015,
+            "title": "Door locking system",
+            "desc": "",
+            "header": "door_lock_system",
+            "teaser": "This is my first C code I wrote, and project was created for the purpose of participating in an exhibition in Sidoarjo City as a representative of the school.",
+            "tags": [
+                "Electronics",
+                "Software",
+                "C",
+                "PCB",
+                "Arduino"
+            ],
+            "links": null,
+            "achievements": null,
+            "images": []
+        }
+    }
+}
